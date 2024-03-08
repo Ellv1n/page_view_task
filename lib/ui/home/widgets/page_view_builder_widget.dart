@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../model/data_model.dart';
 import 'page_view_element_widget.dart';
 
-class PageViewBuildetr extends StatelessWidget {
-  const PageViewBuildetr({super.key});
+class PageViewBuilder extends StatelessWidget {
+  const PageViewBuilder({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class PageViewBuildetr extends StatelessWidget {
         itemCount: dataModel.length,
         itemBuilder: (context, index) {
           final data = dataModel[index];
-          return HomePageViewItem(
+          return PageViewElement(
             subtitle: data.subtitle,
             title: data.title,
             cardBackgroundColor: data.backgroundColor,

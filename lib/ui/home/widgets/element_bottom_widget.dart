@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomeCardBottomWidget extends StatelessWidget {
-  const HomeCardBottomWidget(
+class ElementBottomWidget extends StatelessWidget {
+  const ElementBottomWidget(
       {super.key,
       required this.name,
       required this.time,

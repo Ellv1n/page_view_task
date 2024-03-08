@@ -4,8 +4,8 @@ import 'element_bottom_widget.dart';
 import 'element_center_widget.dart';
 import 'element_top_widget.dart';
 
-class HomePageViewItem extends StatelessWidget {
-  const HomePageViewItem({
+class PageViewElement extends StatelessWidget {
+  const PageViewElement({
     super.key,
     required this.subtitle,
     required this.title,
@@ -35,7 +35,7 @@ class HomePageViewItem extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            HomeCardTopWidget(
+            ElementTopWidget(
               text: subtitle,
               cardBackgroundColor: cardBackgroundColor,
               cardForegroundColor: cardForegroundColor,
@@ -43,14 +43,14 @@ class HomePageViewItem extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-            HomeCardMidWidget(
+            ElementCenterWidget(
               title: title,
               cardForegroundColor: cardForegroundColor,
             ),
             const SizedBox(
               height: 20,
             ),
-            HomeCardBottomWidget(
+            ElementBottomWidget(
               name: name,
               time: time,
               cardForegroundColor: cardForegroundColor,

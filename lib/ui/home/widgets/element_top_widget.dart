@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomeCardTopWidget extends StatelessWidget {
-  const HomeCardTopWidget({
+class ElementTopWidget extends StatelessWidget {
+  const ElementTopWidget({
     super.key,
     required this.text,
     required this.cardForegroundColor,

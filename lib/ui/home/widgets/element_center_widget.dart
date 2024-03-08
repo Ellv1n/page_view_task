@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomeCardMidWidget extends StatelessWidget {
-  const HomeCardMidWidget({
+class ElementCenterWidget extends StatelessWidget {
+  const ElementCenterWidget({
     super.key,
     required this.title,
     required this.cardForegroundColor,

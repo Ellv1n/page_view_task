@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       body: Padding(
         padding: EdgeInsets.only(top: 20),
         child: SizedBox(
-          child: PageViewBuildetr(),
+          child: PageViewBuilder(),
         ),
       ),
     );
